@@ -2,8 +2,8 @@ use std::collections::HashMap;
 
 fn main() {
     let mut map = HashMap::new();
-    map.insert(3, "Fizz");
-    map.insert(5, "Buzz");
+    map.insert(3, "fizz");
+    map.insert(5, "buzz");
 
     for i in 1..=100 {
         let output: String = map
@@ -20,4 +20,3 @@ fn main() {
         }
     }
 }
-

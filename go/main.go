@@ -7,11 +7,11 @@ import (
 
 func main() {
 	conditions := []struct {
-		key   int
+		key int
 		val string
 	}{
-		{3, "Fizz"},
-		{5, "Buzz"},
+		{3, "fizz"},
+		{5, "buzz"},
 	}
 
 	sort.Slice(conditions, func(i, j int) bool {

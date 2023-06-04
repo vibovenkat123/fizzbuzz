@@ -1,9 +1,9 @@
-"""Fizzbuzz"""
+"""the most useless program ever"""
 
 
 def main():
     """
-    FizzBuzz
+    ultimate fizzbuzz
     """
     fizzbuzz_map = {"3": "fizz", "5": "buzz"}
     for i in range(1, 101):

@@ -1,9 +1,9 @@
 type Conditions = {
     [key: number]: string
 }
-const conditions: Conditions  = {
-    3: "Fizz",
-    5: "Buzz"
+const conditions: Conditions = {
+    3: "fizz",
+    5: "buzz"
 }
 for (let i = 0; i <= 100; ++i) {
     let res: number | string = Object.entries(conditions)
